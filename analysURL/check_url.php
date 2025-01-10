@@ -23,7 +23,7 @@
                 echo "<p class='result error'>L'URL saisie n'est pas valide.</p>";
             } else {
                 // Clé API Google Safe Browsing
-                $apiKey = 'AIzaSyCpjt-uFl-WN2E8jivNBVkDyMbqYxno8gI'; // Remplacez par votre clé API
+                $apiKey = ' CODE API '; // Remplacez par votre clé API
                 $apiUrl = "https://safebrowsing.googleapis.com/v4/threatMatches:find?key=$apiKey";
 
                 // Construction des données pour l'API
