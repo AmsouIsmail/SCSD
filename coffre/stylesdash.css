@@ -1,0 +1,127 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container */
+.container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Card styling for both upload and file list */
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* File Upload Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="file"] {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* File List */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+}
+
+li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+/* Aligning buttons and file name */
+.file-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button.delete-btn {
+    background-color: red;
+    padding: 8px 12px;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+}
+
+button.delete-btn:hover {
+    background-color: darkred;
+}
+
+/* Styling for the file name part */
+.file-name {
+    flex: 1;
+    word-wrap: break-word;
+}
+
+/* Logout Link */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

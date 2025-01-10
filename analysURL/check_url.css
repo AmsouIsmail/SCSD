@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff(223, 216, 213);
+    padding: 40px; /* Plus grand */
+    border-radius: 15px; /* Plus arrondi */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Effet d'ombre plus prononcé */
+    text-align: center;
+    width: 400px; /* Carré plus large */
+    transition: transform 0.3s ease-in-out; /* Animation de grandissement */
+}
+
+.container:hover {
+    transform: scale(1.05); /* Agrandissement lorsque le curseur entre */
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 15px; /* Plus grand */
+    margin-bottom: 15px; /* Espacement augmenté */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out; /* Animation pour la bordure */
+}
+
+input[type="text"]:focus {
+    border-color: #000000; /* Bordure dorée au focus */
+}
+
+button {
+    padding: 12px 20px; /* Bouton plus grand */
+    background-color: #ddc000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Texte plus grand */
+    transition: background-color 0.3s ease; /* Transition pour l'effet hover */
+}
+
+button:hover {
+    background-color: #a5ae00;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.3s ease, color 0.3s ease; /* Animation pour l'apparition */
+}
+
+.result.safe {
+    color: #4CAF50;
+    background-color: #e8f5e9;
+}
+
+.result.danger {
+    color: #f44336;
+    background-color: #ffebee;
+}
+
+.result.error {
+    color: #ff9800;
+    background-color: #fff3e0;
+}
+
+
+
+
+
+
+
