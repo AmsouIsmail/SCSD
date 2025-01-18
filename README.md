@@ -4,7 +4,7 @@ Un site web collaboratif dédié à la sécurité des données, intégrant des o
 - Hachage
 - Cryptage
 - Analyse de la robustesse des mots de passe
-- Stockage sécurisé (Couffre-Forte)
+- Stockage sécurisé (Coffre-Fort)
 - Vérification de la sécurité des URLs
 
 ## Technologies utilisées :
