@@ -16,7 +16,7 @@ Un site web collaboratif dédié à la sécurité des données, intégrant des o
 ---
 
 ### Contributeurs :
-- [AMSOU ISMAIL](https://github.com/AmsouIsmail)
+- [AMSOU ISMAIL](https://github.com/amsou-ismail)
 - [AMAR SAAD](https://github.com/AMARS44D)
 - MERGHICH MOUNIR
 - AMHIRAQ ABDELHAKIM
